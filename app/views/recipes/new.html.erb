@@ -1,0 +1,15 @@
+<h1>Recipes#new</h1>
+<p>Find me in app/views/recipes/new.html.erb</p>
+
+<%= form_for @recipe do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+
+  <%= f.label :boby %>
+  <%= f.text_area :boby %>
+
+  <%= f.label :imege %>
+  <%= f.attachment_field :image %>
+
+  <%= f.submit %>
+<% end %>
