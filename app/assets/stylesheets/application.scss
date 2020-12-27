@@ -19,3 +19,18 @@
  .notification:not(:last-child){
 	margin-bottom: 0;
 }
+
+.profile_image{
+<<<<<<< Updated upstream
+ border-radius: 50%;
+}
+
+.main-image{
+	height: 940px;
+	background-image: url(main_home.png);
+	background-repeat: none;
+	background-size: contain;
+=======
+	border-radius: 50%;
+>>>>>>> Stashed changes
+}

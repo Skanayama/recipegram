@@ -10,7 +10,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_12_12_131605) do
+<<<<<<< Updated upstream
+ActiveRecord::Schema.define(version: 2020_12_14_151208) do
+
+  create_table "recipes", force: :cascade do |t|
+    t.integer "user_id"
+    t.string "title"
+    t.text "boby"
+    t.string "image_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+=======
+ActiveRecord::Schema.define(version: 2020_12_14_143902) do
+
+>>>>>>> Stashed changes
 
   create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false
