@@ -3,19 +3,11 @@
 one:
   user_id: 1
   title: MyString
-<<<<<<< Updated upstream
   boby: MyText
-=======
-  body: MyText
->>>>>>> Stashed changes
   image_id: MyString
 
 two:
   user_id: 1
   title: MyString
-<<<<<<< Updated upstream
   boby: MyText
-=======
-  body: MyText
->>>>>>> Stashed changes
   image_id: MyString

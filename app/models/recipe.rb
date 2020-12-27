@@ -1,5 +1,4 @@
 class Recipe < ApplicationRecord
-<<<<<<< Updated upstream
   belongs_to :user
   attachment :image
 
@@ -8,7 +7,4 @@ class Recipe < ApplicationRecord
     validates :boby
     validates :image
   end
-
-=======
->>>>>>> Stashed changes
 end
